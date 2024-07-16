@@ -612,16 +612,32 @@ video {
   left: 0px;
 }
 
+.right-4{
+  right: 1rem;
+}
+
 .top-0{
   top: 0px;
+}
+
+.top-\[0\.7rem\]{
+  top: 0.7rem;
 }
 
 .z-50{
   z-index: 50;
 }
 
+.ml-4{
+  margin-left: 1rem;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-14{
@@ -630,6 +646,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .flex-col{
@@ -646,10 +666,6 @@ video {
 
 .gap-5{
   gap: 1.25rem;
-}
-
-.border{
-  border-width: 1px;
 }
 
 .border-b{
@@ -682,6 +698,11 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .uppercase{
