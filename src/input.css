@@ -21,8 +21,11 @@
     }
 }
 @layer utilitions{
-    .home__title,.card__title{
+    .home__title,.card__title,.section__title{
         @apply text-4xl font-oswald font-bold uppercase lg:text-5xl;
+    }
+    .section__title{
+        @apply text-4xl font-oswald font-bold uppercase lg:text-6xl;
     }
     .card__title{
         @apply text-4xl font-oswald font-bold uppercase lg:text-6xl;
