@@ -496,7 +496,24 @@
                       <p class="font-oswald uppercase">john </p>
                       <p class="paragraph">Designer</p>
                     </div>
-                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor ml-auto"></i>
+                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor mlauto"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper py-10">
+            <ul class="swiper-wrapper">
+              <li class="swiper slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolor maiores quae eos ex illum ducimus ullam, deserunt fugiat. Laboriosam porro tempora quis! Officia impedit eaque, doloremque reprehenderit praesentium repellendus</p>
+                  <div class="flex items-center">
+                    <img src="img/review-2.jpg" alt="review image" class="w-12 h-12 rounded-full">
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">john </p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor mlauto"></i>
                   </div>
                 </div>
               </li>
@@ -507,18 +524,55 @@
             <ul class="swiper-wrapper">
               <li class="swiper slide">
                 <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
-                  <p class="paragraph">dcdfvdfvfdv</p>
-                  <div >
-                    <img src="img/review-2.jpg" alt="review image">
-                    <div>
-                      <p>imad</p>
-                      <p>software developer</p>
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolor maiores quae eos ex illum ducimus ullam, deserunt fugiat. Laboriosam porro tempora quis! Officia impedit eaque, doloremque reprehenderit praesentium repellendus</p>
+                  <div class="flex items-center">
+                    <img src="img/review-3.jpg" alt="review image" class="w-12 h-12 rounded-full">
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">john </p>
+                      <p class="paragraph">Designer</p>
                     </div>
-                    <i class="fa-solid fa-quote-right"></i>
+                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor mlauto"></i>
                   </div>
                 </div>
               </li>
             </ul>
+          </div>
+
+          <div class="swiper py-10">
+            <ul class="swiper-wrapper">
+              <li class="swiper slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolor maiores quae eos ex illum ducimus ullam, deserunt fugiat. Laboriosam porro tempora quis! Officia impedit eaque, doloremque reprehenderit praesentium repellendus</p>
+                  <div class="flex items-center">
+                    <img src="img/review-4.jpg" alt="review image" class="w-12 h-12 rounded-full">
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">john </p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor mlauto"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper py-10">
+            <ul class="swiper-wrapper">
+              <li class="swiper slide">
+                <div class="flex flex-col gap-5 bg-primaryColor rounded-lg p-6">
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolor maiores quae eos ex illum ducimus ullam, deserunt fugiat. Laboriosam porro tempora quis! Officia impedit eaque, doloremque reprehenderit praesentium repellendus</p>
+                  <div class="flex items-center">
+                    <img src="img/review-5.jpg" alt="review image" class="w-12 h-12 rounded-full">
+                    <div class="ml-2">
+                      <p class="font-oswald uppercase">john </p>
+                      <p class="paragraph">Designer</p>
+                    </div>
+                    <i class="fa-solid fa-quote-right text-4xl text-secondaryColor mlauto"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
 
@@ -526,6 +580,19 @@
 
       <!--~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~-->
       <section id="contact">
+        <div>
+          <div>
+            <h2>GET EXCLUSIVE UPDATE</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel doloremque corrupti reiciendis et reprehenderit. Porro quidem aliquid, odit placeat iste consequatur fugit? Tempora ab perferendis quisquam unde inventore commodi iure.
+            Rerum ad quae doloribus laudantium ab? Nam molestiae sed quisquam laborum quas aliquam aperiam modi suscipit odit provident commodi excepturi reprehenderit laudantium dolores, doloremque ipsam eius saepe, nisi eos aliquid.
+            Nemo, voluptatem soluta dignissimos in, accusamus natus tempore itaque et perferendis magni harum quos? Odit soluta magnam accusantium tenetur eos quidem dolorum nesciunt quos. </p>
+          </div>
+
+          <div>
+            <input type="text">
+            <a href=""></a>
+          </div>
+        </div>
 
       </section>
     </main>
@@ -540,6 +607,37 @@
 
     <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 30,
+        delay: 30000,
+        disableOnInteraction: false 
+ 
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  grabCursor: true,
+  breakpoints: {
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 3,
+    }
+  }
+
+});
+    </script>
 
     <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
     <script src="https://unpkg.com/scrollreveal"></script>
