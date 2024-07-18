@@ -21,7 +21,9 @@
     }
 }
 @layer utilitions{
-    .home__title,.card__title,.section__title{
+    .home__title,
+    .card__title,
+    .section__title{
         @apply text-4xl font-oswald font-bold uppercase lg:text-5xl;
     }
     .section__title{
@@ -37,3 +39,9 @@
         @apply text-paragraphColor text-xs leading-5;
     }
 }
+.tabs_wrap ul li:hover,
+.tabs_wrap ul li:active{
+    @apply bg-secondaryColor text-blackColor;
+}
+
+
