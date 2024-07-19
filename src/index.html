@@ -582,15 +582,15 @@
       <section id="contact" class="bg-secondaryColor py-16">
         <div class="container flex flex-col gap-5 md:items-center md:flex-row">
           <div class="space-y-4 md:flex--1">
-            <h2 class="section">GET EXCLUSIVE UPDATE</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel doloremque corrupti reiciendis et reprehenderit. Porro quidem aliquid, odit placeat iste consequatur fugit? Tempora ab perferendis quisquam unde inventore commodi iure.
+            <h2 class="section__title text-blackColor">GET EXCLUSIVE UPDATE</h2>
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel doloremque corrupti reiciendis et reprehenderit. Porro quidem aliquid, odit placeat iste consequatur fugit? Tempora ab perferendis quisquam unde inventore commodi iure.
             Rerum ad quae doloribus laudantium ab? Nam molestiae sed quisquam laborum quas aliquam aperiam modi suscipit odit provident commodi excepturi reprehenderit laudantium dolores, doloremque ipsam eius saepe, nisi eos aliquid.
             Nemo, voluptatem soluta dignissimos in, accusamus natus tempore itaque et perferendis magni harum quos? Odit soluta magnam accusantium tenetur eos quidem dolorum nesciunt quos. </p>
           </div>
 
-          <div>
-            <input type="email" placeholder="Email address">
-            <a href="">
+          <div class="flex flex-col gap-3 md:flex-row md:flex-1">
+            <input type="email" placeholder="Email address" class="p-2 text-blackColor rounded-lg outline-none md:w-full">
+            <a href="" class="flex items-center justify-center gap-2 btn bg-blackColor hover:opacity-75">
                <i class="fa-solid fa-paper-plane"></i>
                Subscribe
             </a>
@@ -602,12 +602,78 @@
     <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
     <footer>
       <section class="footer">
+        <div class="container">
+          <ul class="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4 ">
+            <li>
+             <div class="space-y-3">
+              <a href="" class="text-4xl font-oswald uppercase">Bur<span class="text-secondaryColor">ger</span></a>
+              <p class="text-xs">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, ullam repudiandae? Culpa delectus illum illo ut quasi corrupti, commodi omnis? Sit quidem obcaecati illum molestias! Porro ipsam natus eos harum?
+              </p>
+             </div> 
+            </li>
+
+            <li>
+              <div class="flex flex-col gap-3">
+                <h3 class="text-lg uppercase font-oswald">SUPPORT</h3>
+                <a href="" class="text-xs hover:text-secondaryColor">FAQ'</a>
+                <a href="" class="text-xs hover:text-secondaryColor">Privacy Policy</a>
+                <a href="" class="text-xs hover:text-secondaryColor">Term & Condition</a>
+                <a href="" class="text-xs hover:text-secondaryColor"> Contact</a>
+              </div>
+            </li>
+
+            <li class="space-y-3">
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">phone</h3>
+                <p class="flex items-center gap-2 text-xs">
+                  <i class="fa-solid fa-phone text-secondaryColor text-lg"></i>
+                  8783849334
+                </p>
+              </div>
+
+              <div class="space-y-2">
+                <h3 class="text-lg uppercase font-oswald">email</h3>
+                <p class="flex items-center gap-2 text-xs">
+                  <i class="fa-solid fa-envelope text-lg text-secondaryColor"></i>
+                  burger.info@gmail.com
+                </p>
+              </div>
+              </li>
+              <li class="space-y-3">
+                <div class="space-y-2">
+                  <h3 class="text-lg uppercase font-oswald">address</h3>
+                  <p class="flex items-center gap-2 text-xs">
+                    <i class="fa-solid fa-location-dot text-lg text-secondaryColor"></i>
+                    Address goed here
+                  </p>
+                </div>
+
+                <div class="space-y-2">
+                  <h3 class="text-lg uppercase font-oswald">Follow us</h3>
+                  <div class="space-x-3">
+                    <i class="fa-brands fa-facebook-f text-lg text-secondaryColor hover:-translate-y-1 ease-in duration-200 cursor-pointer"></i>
+                    <i class="fa-brands fa-twitter text-lg text-secondaryColor hover:-translate-y-1 ease-in duration-200 cursor-pointer"></i>
+                    <i class="fa-brands fa-square-instagram text-lg text-secondaryColor hover:-translate-y-1 ease-in duration-200 cursor-pointer"></i>
+                  </div>
+                </div>
+              </li>
+        </ul>
+        <div class="flex flex-col items-center border-t border-primaryColorLight py-5 md:flex-row md:justify-between">
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. hjlhlihyffufdtdhk</p>
+
+
+        </div>
+      </div>
 
       </section>
     </footer>
 
     <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
-
+    <a href="" class="fixed right-4 -bottom-1/2 bg-secondaryColor shadow-sm inline-block px-4 py-2 rounded-full text-lg text-blackColor z-50 hover:-translate-y-1 ease-in duration-200" id="scroll-up">
+    <i class="fa-solid fa-arrow-up"></i>
+    </a>
     <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
