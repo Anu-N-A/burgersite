@@ -91,7 +91,7 @@
     }
 
     //SHOW SCROLL UP
-    const scrollUp = {} => {
+    const scrollUp = () => {
         const scrollUpBtn = document.getElementsById("scroll-up")
         if(this.scrollY >= 250){
             scrollUpBtn.classList.remove("-bottom-1/2");
@@ -103,7 +103,7 @@
     }
     window.addEventListener('scroll',scrollUp)
     //CHANGE BACKGROUND HEADER
-    const scrollHeader = {} => {
+    const scrollHeader = () => {
         const header = document.getElementsById("header")
         if(this.scrollY >= 50){
             header.classList.add("border-b","border-secondaryColor");
